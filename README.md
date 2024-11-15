@@ -1,2 +1,2 @@
-# template-typescript-lib
-作为typescript库的模板
+# template-typescript-node
+作为node端的typescript项目模板
