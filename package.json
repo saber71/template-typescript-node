@@ -5,6 +5,7 @@
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
+    "start": "pnpm run build && node dist/index.js",
     "build": "vite build",
     "watch": "vite build --watch",
     "test": "vitest run"
@@ -14,7 +15,6 @@
     "@types/node": "^22.9.0",
     "unplugin-swc": "^1.5.1",
     "vite": "^5.4.11",
-    "vite-plugin-dts": "^4.3.0",
     "vitest": "^2.1.5"
   }
 }
